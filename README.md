@@ -17,3 +17,4 @@ https://t.me/snowfluke
 Donasi seikhlasnya
 
 ETH/BSC/POLY
+0x39Bce682DBFe79a0b940c8E833aaf2ab08098816
