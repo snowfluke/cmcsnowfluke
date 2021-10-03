@@ -475,7 +475,7 @@ _Data Diperbarui 10 menit sekali_`;
 
 BOT.command("broadcast", async (ctx) => {
 	if (ctx.from.id !== 1115895870) {
-		BOT.reply(
+		BOT.telegram.sendMessage(
 			ctx.chat.id,
 			"Kamu tidak diperbolehkan menggunakan perintah ini!"
 		);
@@ -510,7 +510,7 @@ BOT.command("broadcast", async (ctx) => {
 
 BOT.command("count", async (ctx) => {
 	if (ctx.from.id !== 1115895870) {
-		BOT.reply(
+		BOT.telegram.sendMessage(
 			ctx.chat.id,
 			"Kamu tidak diperbolehkan menggunakan perintah ini!"
 		);
